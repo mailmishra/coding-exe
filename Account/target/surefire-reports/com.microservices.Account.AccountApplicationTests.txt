@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.microservices.Account.AccountApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.365 s <<< FAILURE! - in com.microservices.Account.AccountApplicationTests
+testFindAccountByAcctNm(com.microservices.Account.AccountApplicationTests)  Time elapsed: 0.182 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...el.AccountViewModel@[3d8bbcdc]> but was:<...el.AccountViewModel@[41a90fa8]>
+	at com.microservices.Account.AccountApplicationTests.testFindAccountByAcctNm(AccountApplicationTests.java:71)
+
